@@ -16,15 +16,15 @@ pip3 install flask > /dev/null 2>&1
 rm /bin/chuser > /dev/null 2>&1
 sleep 5
 cd /bin || exit
-wget https://raw.githubusercontent.com/Cyber-ssh/checkUser/main/chuser > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Cyber-ssh/checkUser/main/userscheck > /dev/null 2>&1
+wget https://raw.githubusercontent.com/PhoenixxZ2023/CheckUSER-4G/main/chuser > /dev/null 2>&1
+wget https://raw.githubusercontent.com/PhoenixxZ2023/CheckUSER-4G/main/userscheck > /dev/null 2>&1
 chmod 777 chuser > /dev/null 2>&1
 chmod 777 userscheck > /dev/null 2>&1
 clear
 mkdir /usr/lib/checkuser > /dev/null 2>&1
 cd /usr/lib/checkuser || exit
 rm checkuser.py > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Cyber-ssh/checkUser/main/checkuser.py > /dev/null 2>&1
+wget https://raw.githubusercontent.com/PhoenixxZ2023/CheckUSER-4G/main/checkuser.py > /dev/null 2>&1
 chmod 777 checkuser.py > /dev/null 2>&1
 clear
 echo -e "        \033[1;33m • \033[1;32mINSTALAÇÃO CONCLUÍDA\033[1;33m • \033[0m"
@@ -33,6 +33,6 @@ clear
 echo ""
 echo -e "\033[1;31m \033[1;33mCOMANDO PRINCIPAL: \033[1;32mchuser\033[0m"
 echo ""
-echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@Cyberssh23\033[0m"
+echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@TURBONET\033[0m"
 cat /dev/null > ~/.bash_history && history -c
 exit
